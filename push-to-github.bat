@@ -7,6 +7,10 @@ echo Marked this folder as safe for Git.
 echo.
 "C:\Program Files\Git\cmd\git.exe" status --short --branch
 echo.
+"C:\Program Files\Git\cmd\git.exe" fetch origin main
+echo.
+"C:\Program Files\Git\cmd\git.exe" merge FETCH_HEAD --allow-unrelated-histories --no-edit
+echo.
 "C:\Program Files\Git\cmd\git.exe" push -u origin main
 echo.
 echo If GitHub opened a login window, complete it and run this file again if needed.
