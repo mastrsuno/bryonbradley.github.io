@@ -2,6 +2,9 @@
 cd /d "%~dp0"
 echo Pushing Bryon Bradley portfolio to GitHub...
 echo.
+"C:\Program Files\Git\cmd\git.exe" config --global --add safe.directory "%CD%"
+echo Marked this folder as safe for Git.
+echo.
 "C:\Program Files\Git\cmd\git.exe" status --short --branch
 echo.
 "C:\Program Files\Git\cmd\git.exe" push -u origin main
