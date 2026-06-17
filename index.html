@@ -13,7 +13,7 @@
       <span class="brand-mark">BB</span>
       <span>Bryon Bradley</span>
     </a>
-    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
       <span></span>
       <span></span>
       <span></span>
@@ -31,121 +31,187 @@
     <section class="hero section-wrap">
       <div class="hero-copy">
         <p class="eyebrow">Creative technologist / web and email</p>
-        <h1>Clean digital systems for brands, campaigns, and people with something to prove.</h1>
-        <p class="lede">I design and build websites, HTML email campaigns, campaign assets, and practical digital experiences that balance visual taste with technical execution.</p>
+        <h1>Thoughtful digital work for brands, campaigns, and independent builders.</h1>
+      </div>
+      <div class="hero-brief">
+        <p>I design and build websites, HTML email campaigns, production systems, and practical digital experiences that balance clarity, taste, and execution.</p>
         <div class="hero-actions">
           <a class="button primary" href="#work">View work</a>
           <a class="button secondary" href="#contact">Start a conversation</a>
         </div>
       </div>
-      <aside class="signal-panel" aria-label="Profile highlights">
-        <div>
-          <span class="metric">Web</span>
-          <p>Responsive sites, landing pages, CMS front ends, and campaign microsites.</p>
-        </div>
-        <div>
-          <span class="metric">Email</span>
-          <p>HTML email builds, modular templates, QA, production support, and asset systems.</p>
-        </div>
-        <div>
-          <span class="metric">Markets</span>
-          <p>Chart reading, risk-first thinking, and beginner-friendly trading education.</p>
-        </div>
-      </aside>
     </section>
 
-    <section class="intro section-wrap">
-      <p>Bryon Bradley brings design sense, production discipline, and front-end fluency into one lane. The work spans restaurants, agencies, artists, email campaigns, and business sites, with a focus on making the thing easier to understand, use, and ship.</p>
-    </section>
-
-    <section id="work" class="section-wrap">
-      <div class="section-heading">
-        <p class="eyebrow">Selected work</p>
-        <h2>A refreshed edit of older projects, presented with a sharper point of view.</h2>
+    <section class="agency-note section-wrap">
+      <div>
+        <p class="eyebrow">The practice</p>
+        <h2>Structure first. Style with restraint. Build the thing so it can actually ship.</h2>
       </div>
+      <p>Bryon Bradley brings design sense, production discipline, and front-end fluency into one lane. The work spans restaurants, agencies, artists, email campaigns, and business sites, with a focus on making each idea easier to understand, use, and maintain.</p>
+    </section>
+
+    <section id="work" class="work-section section-wrap">
+      <div class="section-heading">
+        <p class="eyebrow">Our work</p>
+        <h2>Selected projects, rebuilt as a cleaner portfolio experience.</h2>
+      </div>
+
       <div class="filter-bar" aria-label="Portfolio filters">
         <button class="filter active" type="button" data-filter="all">All</button>
         <button class="filter" type="button" data-filter="web">Web</button>
         <button class="filter" type="button" data-filter="email">Email</button>
         <button class="filter" type="button" data-filter="brand">Brand</button>
       </div>
-      <div class="work-grid">
+
+      <div class="work-list">
+        <article class="project-card featured" data-category="web brand">
+          <button class="project-preview" type="button" data-title="AGBU Bookstore" data-type="Web design / ecommerce" data-image="assets/agbu-bookstore.jpg" data-url="http://agbubookstore.org/" data-summary="A commerce-focused web project for a cultural organization, balancing product presentation with clear browsing paths.">
+            <img src="assets/agbu-bookstore.jpg" alt="AGBU Bookstore website thumbnail">
+          </button>
+          <div class="project-details">
+            <span class="project-number">01</span>
+            <p>Web design / ecommerce</p>
+            <h3>AGBU Bookstore</h3>
+            <p class="project-summary">A commerce-focused web project for a cultural organization, balancing product presentation with clear browsing paths.</p>
+            <button class="text-link" type="button" data-open-project>View project</button>
+          </div>
+        </article>
+
         <article class="project-card" data-category="web brand">
-          <img src="assets/ammon-hickson.jpg" alt="Ammon Hickson portfolio thumbnail">
-          <div class="project-copy">
+          <button class="project-preview" type="button" data-title="Ammon Hickson" data-type="Web / brand presence" data-image="assets/ammon-hickson.jpg" data-url="http://ammonhickson.com" data-summary="A public-facing web presence built around personality, polish, and a focused visual identity.">
+            <img src="assets/ammon-hickson.jpg" alt="Ammon Hickson portfolio thumbnail">
+          </button>
+          <div class="project-details">
+            <span class="project-number">02</span>
             <p>Web / brand presence</p>
             <h3>Ammon Hickson</h3>
+            <p class="project-summary">A public-facing web presence built around personality, polish, and a focused visual identity.</p>
+            <button class="text-link" type="button" data-open-project>View project</button>
           </div>
         </article>
+
         <article class="project-card" data-category="web">
-          <img src="assets/tight-line.jpg" alt="Tight Line portfolio thumbnail">
-          <div class="project-copy">
+          <button class="project-preview" type="button" data-title="Tight Line" data-type="Agency / web" data-image="assets/tight-line.jpg" data-url="http://www.tightlinemarketing.com/" data-summary="An agency site organized around services, work samples, and practical conversion paths.">
+            <img src="assets/tight-line.jpg" alt="Tight Line portfolio thumbnail">
+          </button>
+          <div class="project-details">
+            <span class="project-number">03</span>
             <p>Agency / web</p>
             <h3>Tight Line</h3>
+            <p class="project-summary">An agency site organized around services, work samples, and practical conversion paths.</p>
+            <button class="text-link" type="button" data-open-project>View project</button>
           </div>
         </article>
+
         <article class="project-card" data-category="web">
-          <img src="assets/bay-harbor.jpg" alt="Bay Harbor Gallery portfolio thumbnail">
-          <div class="project-copy">
+          <button class="project-preview" type="button" data-title="Bay Harbor Gallery" data-type="Retail / web" data-image="assets/bay-harbor.jpg" data-url="http://bayharborrugs.com/" data-summary="A retail web experience built to frame product visuals and make browsing feel straightforward.">
+            <img src="assets/bay-harbor.jpg" alt="Bay Harbor Gallery portfolio thumbnail">
+          </button>
+          <div class="project-details">
+            <span class="project-number">04</span>
             <p>Retail / web</p>
             <h3>Bay Harbor Gallery</h3>
+            <p class="project-summary">A retail web experience built to frame product visuals and make browsing feel straightforward.</p>
+            <button class="text-link" type="button" data-open-project>View project</button>
           </div>
         </article>
+
         <article class="project-card" data-category="web">
-          <img src="assets/biscayne.jpg" alt="Biscayne Tavern portfolio thumbnail">
-          <div class="project-copy">
+          <button class="project-preview" type="button" data-title="Biscayne Tavern" data-type="Hospitality / web" data-image="assets/biscayne.jpg" data-url="http://biscaynetavern.com/" data-summary="A hospitality site built around atmosphere, location, and a direct path into the restaurant experience.">
+            <img src="assets/biscayne.jpg" alt="Biscayne Tavern portfolio thumbnail">
+          </button>
+          <div class="project-details">
+            <span class="project-number">05</span>
             <p>Hospitality / web</p>
             <h3>Biscayne Tavern</h3>
+            <p class="project-summary">A hospitality site built around atmosphere, location, and a direct path into the restaurant experience.</p>
+            <button class="text-link" type="button" data-open-project>View project</button>
           </div>
         </article>
+
         <article class="project-card" data-category="web">
-          <img src="assets/german-kitchen.jpg" alt="German Kitchen portfolio thumbnail">
-          <div class="project-copy">
+          <button class="project-preview" type="button" data-title="German Kitchen" data-type="Product / web" data-image="assets/german-kitchen.jpg" data-url="http://german-kitchen.com" data-summary="A product-focused website with visual emphasis on materials, interiors, and premium kitchen systems.">
+            <img src="assets/german-kitchen.jpg" alt="German Kitchen portfolio thumbnail">
+          </button>
+          <div class="project-details">
+            <span class="project-number">06</span>
             <p>Product / web</p>
             <h3>German Kitchen</h3>
+            <p class="project-summary">A product-focused website with visual emphasis on materials, interiors, and premium kitchen systems.</p>
+            <button class="text-link" type="button" data-open-project>View project</button>
           </div>
         </article>
+
         <article class="project-card" data-category="web brand">
-          <img src="assets/sol-marketing.jpg" alt="SolGroup Marketing portfolio thumbnail">
-          <div class="project-copy">
+          <button class="project-preview" type="button" data-title="SolGroup Marketing" data-type="Marketing / web" data-image="assets/sol-marketing.jpg" data-url="http://solgroup-marketing.com/" data-summary="A business-facing marketing site organized around brand credibility and service clarity.">
+            <img src="assets/sol-marketing.jpg" alt="SolGroup Marketing portfolio thumbnail">
+          </button>
+          <div class="project-details">
+            <span class="project-number">07</span>
             <p>Marketing / web</p>
             <h3>SolGroup Marketing</h3>
+            <p class="project-summary">A business-facing marketing site organized around brand credibility and service clarity.</p>
+            <button class="text-link" type="button" data-open-project>View project</button>
           </div>
         </article>
+
         <article class="project-card" data-category="email">
-          <img src="assets/mermaid-email.jpg" alt="Mermaid Inn email campaign thumbnail">
-          <div class="project-copy">
+          <button class="project-preview" type="button" data-title="Mermaid Inn" data-type="Email campaign" data-image="assets/mermaid-email.jpg" data-url="https://bryonbradley.com" data-summary="A hospitality email piece with a strong visual thumbnail and campaign-ready presentation.">
+            <img src="assets/mermaid-email.jpg" alt="Mermaid Inn email campaign thumbnail">
+          </button>
+          <div class="project-details">
+            <span class="project-number">08</span>
             <p>Email campaign</p>
             <h3>Mermaid Inn</h3>
+            <p class="project-summary">A hospitality email piece with a strong visual thumbnail and campaign-ready presentation.</p>
+            <button class="text-link" type="button" data-open-project>View project</button>
           </div>
         </article>
+
         <article class="project-card" data-category="email">
-          <img src="assets/smiths-email.jpg" alt="Smiths email campaign thumbnail">
-          <div class="project-copy">
+          <button class="project-preview" type="button" data-title="Smiths" data-type="Email campaign" data-image="assets/smiths-email.jpg" data-url="https://bryonbradley.com" data-summary="A restaurant email campaign concept with a direct promotional layout and strong brand-forward thumbnail.">
+            <img src="assets/smiths-email.jpg" alt="Smiths email campaign thumbnail">
+          </button>
+          <div class="project-details">
+            <span class="project-number">09</span>
             <p>Email campaign</p>
             <h3>Smiths</h3>
+            <p class="project-summary">A restaurant email campaign concept with a direct promotional layout and strong brand-forward thumbnail.</p>
+            <button class="text-link" type="button" data-open-project>View project</button>
           </div>
         </article>
+
         <article class="project-card" data-category="email brand">
-          <img src="assets/tlm-email.jpg" alt="TLM social media email thumbnail">
-          <div class="project-copy">
+          <button class="project-preview" type="button" data-title="TLM Social Email" data-type="Email / social" data-image="assets/tlm-email.jpg" data-url="https://bryonbradley.com" data-summary="A campaign asset designed to connect social messaging with email production constraints.">
+            <img src="assets/tlm-email.jpg" alt="TLM social media email thumbnail">
+          </button>
+          <div class="project-details">
+            <span class="project-number">10</span>
             <p>Email / social</p>
-            <h3>TLM Social</h3>
+            <h3>TLM Social Email</h3>
+            <p class="project-summary">A campaign asset designed to connect social messaging with email production constraints.</p>
+            <button class="text-link" type="button" data-open-project>View project</button>
           </div>
         </article>
+
         <article class="project-card" data-category="web brand">
-          <img src="assets/jennifer-karady.jpg" alt="Jennifer Karady portfolio thumbnail">
-          <div class="project-copy">
+          <button class="project-preview" type="button" data-title="Jennifer Karady" data-type="Artist / web" data-image="assets/jennifer-karady.jpg" data-url="http://jenniferkarady.com" data-summary="An artist portfolio site focused on image presentation, navigation restraint, and a clear archive-like experience.">
+            <img src="assets/jennifer-karady.jpg" alt="Jennifer Karady portfolio thumbnail">
+          </button>
+          <div class="project-details">
+            <span class="project-number">11</span>
             <p>Artist / web</p>
             <h3>Jennifer Karady</h3>
+            <p class="project-summary">An artist portfolio site focused on image presentation, navigation restraint, and a clear archive-like experience.</p>
+            <button class="text-link" type="button" data-open-project>View project</button>
           </div>
         </article>
       </div>
     </section>
 
-    <section id="services" class="section-wrap split-section">
+    <section id="services" class="services section-wrap">
       <div class="section-heading">
-        <p class="eyebrow">Services</p>
+        <p class="eyebrow">Expertise</p>
         <h2>Useful digital work, without the ceremony.</h2>
       </div>
       <div class="service-list">
@@ -162,7 +228,12 @@
         <article>
           <span>03</span>
           <h3>Creative systems</h3>
-          <p>Visual direction, content structure, lightweight brand systems, and practical workflows for teams that need repeatable output.</p>
+          <p>Visual direction, content structure, lightweight brand systems, and practical workflows for repeatable campaign output.</p>
+        </article>
+        <article>
+          <span>04</span>
+          <h3>Digital strategy</h3>
+          <p>Practical planning for portfolios, service pages, content structure, and online presence that has to work in the real world.</p>
         </article>
       </div>
     </section>
@@ -179,8 +250,8 @@
 
     <section id="notes" class="section-wrap">
       <div class="section-heading">
-        <p class="eyebrow">Blog starter</p>
-        <h2>Short notes can show how you think before someone ever emails you.</h2>
+        <p class="eyebrow">Field notes</p>
+        <h2>Short writing can show how you think before anyone emails you.</h2>
       </div>
       <div class="notes-grid">
         <article class="note-card">
@@ -201,7 +272,7 @@
     <section id="contact" class="contact section-wrap">
       <div>
         <p class="eyebrow">Contact</p>
-        <h2>Bring me the messy idea. I will help turn it into something usable.</h2>
+        <h2>Want to start a new project?</h2>
       </div>
       <div class="contact-actions">
         <a class="button primary" href="mailto:bryon@bryonbradley.com">bryon@bryonbradley.com</a>
@@ -209,6 +280,20 @@
       </div>
     </section>
   </main>
+
+  <div class="project-modal" id="project-modal" hidden>
+    <div class="modal-backdrop" data-close-modal></div>
+    <section class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" type="button" data-close-modal aria-label="Close project preview">Close</button>
+      <img id="modal-image" src="" alt="">
+      <div class="modal-content">
+        <p class="eyebrow" id="modal-type"></p>
+        <h2 id="modal-title"></h2>
+        <p id="modal-summary"></p>
+        <a class="button primary" id="modal-link" href="https://bryonbradley.com" target="_blank" rel="noreferrer">View website</a>
+      </div>
+    </section>
+  </div>
 
   <footer class="site-footer">
     <p>&copy; 2026 Bryon Bradley</p>
