@@ -444,11 +444,57 @@ h3 {
 
 .note-card {
   background: transparent;
+  color: inherit;
+  text-decoration: none;
+  transition: background 160ms ease, transform 160ms ease;
 }
 
 .note-card h3 {
   font-size: 1.35rem;
   line-height: 1.15;
+}
+
+.note-card:hover {
+  background: var(--blue-soft);
+  transform: translateY(-2px);
+}
+
+.article-page {
+  background: var(--paper);
+}
+
+.article-nav {
+  display: flex;
+}
+
+.article-wrap {
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 120px 32px;
+}
+
+.article-wrap h1 {
+  color: var(--blue-deep);
+  font-size: clamp(3.2rem, 8vw, 7.4rem);
+  margin-bottom: 34px;
+}
+
+.article-lede {
+  color: var(--blue);
+  font-size: clamp(1.35rem, 3vw, 2rem);
+  line-height: 1.25;
+  margin-bottom: 34px;
+}
+
+.article-wrap p:not(.eyebrow):not(.article-lede) {
+  color: var(--muted);
+  font-size: 1.14rem;
+  line-height: 1.75;
+  margin-bottom: 24px;
+}
+
+.article-back {
+  margin-top: 22px;
 }
 
 .contact {
@@ -675,5 +721,13 @@ h3 {
 
   .modal-content {
     padding: 28px;
+  }
+
+  .article-nav {
+    display: none;
+  }
+
+  .article-wrap {
+    padding: 82px 18px;
   }
 }
